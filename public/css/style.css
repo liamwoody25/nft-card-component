@@ -1,0 +1,115 @@
+/*******  General  **********/
+
+:root{
+    ---main-color:#8BACDA;
+    ---second-color: #00FFF7;
+    ---VDB-1-bg-color:#0D182B;
+    ---VDB-2-card-color:#14253D;
+    ---VDB-3-color:#2F415B;
+    ---txt-color: #FFFFFF;
+}
+.overflow-wrapper{
+    overflow-x: hidden;
+}
+body{
+    background-color: var(---VDB-1-bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 152px 0;
+    font-family: 'Outfit',sans-serif;
+}
+
+.card{
+    width: 350px;
+    height: 596px;
+    background-color: var(---VDB-2-card-color);
+    border-radius: 15px;
+}
+
+.card-content{
+   
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: start;
+}
+
+.card-content p{
+    margin-left: 6.48px;
+    color: var(---second-color);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.text-body{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text-body h2{
+    margin: 0px 24px;
+    width: 302px;
+    color: var(---txt-color);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.text-body p{
+    margin:16px ;
+    width: 302px;
+    margin-left: 24px;
+    color: var(---main-color);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 29px;
+}
+
+.text{
+  
+    display: flex;
+    justify-content: end;
+    
+}
+
+.money{
+    margin: 0px 24px;
+   display: flex;
+   align-items:center;
+
+    
+    
+}
+
+.money p{
+    
+}
+
+.icon-img{
+    margin: 0px 24px  ;
+    width: 11px;
+    height: 18px;
+}
+
+.card-img{
+    border-radius: 8px;
+    margin: 24px;
+    width: 302px;
+    height: 302px;
+}
+
+@media screen and  (min-width: 375px){
+    body{
+        display: flex;
+       margin: 152px 0px;
+    }
+    
+    .card{
+        display: flex;
+    }
+
+}
