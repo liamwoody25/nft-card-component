@@ -48,7 +48,7 @@ body{
     flex-wrap: wrap;
 }
 
-.text-body h2{
+.text h2{
     margin: 0px 24px;
     width: 302px;
     color: var(---txt-color);
@@ -58,7 +58,7 @@ body{
     line-height: normal;
 }
 
-.text-body p{
+.text p{
     margin:16px ;
     width: 302px;
     margin-left: 24px;
@@ -69,25 +69,41 @@ body{
     line-height: 29px;
 }
 
-.text{
-  
+.data-body {
+    margin: 0px 24px;
+    justify-content: space-between;
     display: flex;
-    justify-content: end;
-    
+    align-items: center;
 }
 
+.info p{
+    justify-content: space-around;
+    color: #8BACDA;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+}
+
+
 .money{
-    margin: 0px 24px;
    display: flex;
    align-items:center;
-
-    
-    
 }
 
 .money p{
     
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
+
 
 .icon-img{
     margin: 0px 24px  ;
