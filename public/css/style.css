@@ -28,10 +28,7 @@ body{
 }
 
 .card-content{
-   
-    flex-wrap: wrap;
-    align-items:center;
-    justify-content: start;
+
 }
 
 .card-content p{
@@ -73,7 +70,6 @@ body{
     margin: 0px 24px;
     justify-content: space-between;
     display: flex;
-    align-items: center;
 }
 
 .info p{
@@ -83,6 +79,15 @@ body{
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+a:hover{
+    color: #00FFF7;
 }
 
 .info {
@@ -103,6 +108,10 @@ body{
     line-height: normal;
 }
 
+hr{
+  border: 1px solid var(---VDB-3-color);
+}
+
 
 .icon-img{
     margin: 0px 24px  ;
@@ -116,6 +125,9 @@ body{
     width: 302px;
     height: 302px;
 }
+
+
+
 
 .avatar {
     align-items: center;
@@ -148,11 +160,11 @@ body{
 @media screen and  (min-width: 375px){
     body{
         display: flex;
-       margin: 152px 0px;
-    }
-    
-    .card{
-        display: flex;
+        margin: 152px 0px;
     }
 
+   .card-content{
+  
+   }
+ 
 }
